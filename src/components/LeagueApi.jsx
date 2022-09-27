@@ -41,6 +41,7 @@ const LeagueApi = () => {
               width="100"
               height="100"
               src={`http://ddragon.leagueoflegends.com/cdn/12.18.1/img/profileicon/${playerData.profileIconId}.png`}
+              alt="profileIcon"
             />
             <p>Summoner level {playerData.summonerLevel}</p>
           </>
