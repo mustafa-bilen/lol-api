@@ -4,7 +4,7 @@ import axios from "axios";
 const LeagueApi = () => {
   const [searchText, setSearchText] = useState("");
   const [playerData, setPlayerData] = useState({});
-  const API_KEY = "RGAPI-8cead454-59ad-446e-9bd6-dfd6ca78d30b";
+  const API_KEY = "RGAPI-4e75f309-3f84-45fc-aee2-82ba41ef5c37";
 
   function searchForPlayer(event) {
     // set up the correct api call
