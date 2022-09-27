@@ -34,7 +34,7 @@ const LeagueApi = () => {
           Search for player
         </button>
 
-        {JSON.stringify(playerData) != "{}" ? (
+        {JSON.stringify(playerData) !== "{}" ? (
           <>
             <p>{playerData.name}</p>
             <img
